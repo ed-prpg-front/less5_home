@@ -1,0 +1,205 @@
+@font-face {
+	font-family: "Larsseit";
+	src: url("../fonts/Larsseit-Medium.woff2") format("woff2"), url("../fonts/Larsseit-Medium.woff") format("woff");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Larsseit";
+	src: url("../fonts/Larsseit.woff2") format("woff2"), url("../fonts/Larsseit.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Larsseit";
+	src: url("../fonts/Larsseit-Light.woff2") format("woff2"), url("../fonts/Larsseit-Light.woff") format("woff");
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Larsseit";
+	src: url("../fonts/Larsseit-Bold.woff2") format("woff2"), url("../fonts/Larsseit-Bold.woff") format("woff");
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+/* Стили обнуления */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+body {
+	font-family: Larsseit;
+}
+.logo {
+	display: inline-block;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 111%;
+	margin: 27px 0px 0px 179px;
+	color: #62d0df;
+}
+.menu > ul > li > a {
+	color: black;
+}
+.under {
+	text-decoration: underline;
+}
+/* Делаю все элементы списка li блочно-строчными,чтобы попытаться расположить их в одну линию */
+.menu {
+	display: inline-block;
+	margin-left: 329px;
+}
+.contact {
+	display: inline-block; /* Также делаю блок блочно-строчным для того,чтобы расположить все в одну линию */
+	background-color: black;
+	padding: 8px;
+	margin: 40px 0px 0px 348px;
+}
+.contact a {
+	color: #62d0df;
+}
+.thrive {
+	margin: 187px 0 0 179px;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 111%;
+	color: #62d0df;
+}
+.title {
+	text-transform: uppercase;
+	margin: 50px 0 72px 179px;
+	font-size: 48px;
+	color: #22356f;
+	line-height: 111%;
+	max-width: 484px; /* Устанавливаю текст согласно макету */
+	text-shadow: 2px -1px 10px #22356f;
+}
+.ourhighly {
+	color: #22356f;
+	font-size: 24px;
+	max-width: 469px;
+	line-height: 176%;
+	margin: 0px 0px 66px 179px;
+}
+.who__i,
+.whati__do {
+	display: inline-block; /* Применяю свойство,чтобы расположить  два блока в одну линию */
+}
+.who__i {
+	margin: 63px 38px 75px 179px;
+	width: 150px;
+	background-color: #f9b640;
+	padding: 10px 0;
+	font-size: 16px;
+	line-height: 144%;
+	font-weight: 700;
+	color: #ffffff;
+}
+.whati__do {
+	font-size: 16px;
+	line-height: 144%;
+	font-weight: 700;
+	color: #f9b640;
+}
+.second__want {
+	max-width: 555px;
+}
+.second__why {
+	margin: 151px 0 75px 178px;
+}
+.second__text {
+	display: inline-block; /* Выравниваю блоки,чтобы картинка располагалась сбоку от текстовых блоков */
+}
+.second__why {
+	font-size: 36px;
+	font-weight: 700;
+	color: white;
+}
+.second__want {
+	margin: 0 0 95px 178px;
+	font-size: 20px;
+	line-height: 145%;
+	font-weight: 300;
+	color: #ffffff;
+}
+.second__want span {
+	font-size: 24px;
+	font-weight: bold;
+}
+.second {
+	background-color: #62d0df;
+}
+.second img {
+	margin-left: 48px;
+}
+.third__text__about,
+.third__text__paragraph {
+	display: inline-block;
+}
+.third__text__about {
+	font-size: 16px;
+	line-height: 140%;
+	font-weight: 400;
+	margin: 156px 225px 115px 106px;
+}
+.third__text__paragraph {
+	height: 100px;
+	overflow: auto;
+	max-width: 592px;
+	font-size: 24px;
+	line-height: 140%;
+	font-weight: 700;
+	margin: 150px 0px 0px 225px;
+}
+.third__text__about,
+.third__text__paragraph {
+	display: inline-block;
+}
+.third__footer {
+	font-size: 16px;
+	font-weight: 300;
+	text-align: center;
+	text-transform: uppercase;
+}
+.footer {
+	max-width: 100%;
+	text-transform: capitalize;
+	font-size: 16px;
+	background-color: #62d0df;
+	color: #fff;
+	padding: 34px 0px 29px 179px;
+}
